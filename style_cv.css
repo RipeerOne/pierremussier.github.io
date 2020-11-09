@@ -1,0 +1,260 @@
+@font-face
+{
+	font-family : "Font Awesome 5 Brands";
+	src : url('../webfont/font_awesome_5_brands-regular-400-webfont.eot') format('eot'),
+	url('../webfont/font_awesome_5_brands-regular-400-webfont.woff') format('woff'),
+	url('../webfont/font_awesome_5_brands-regular-400-webfont.woff2') format('woff2'),
+	url('../webfont/font_awesome_5_brands-regular-400-webfont.ttf') format('truetype'),
+	url('../webfont/font_awesome_5_brands-regular-400-webfont.svg') format('svg');
+}
+
+
+
+
+header
+{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width : auto;
+	background-color: rgb(23,55,94);
+}
+
+#photo_identite
+{
+	border : 2px black solid;
+	border-radius : 10px;
+	margin : 1vw 1vw 1vw 1vw;
+}
+
+#titre_cv
+{
+	font-family : "Font Awesome 5 Brands", Arial, Serif;
+	color : white;
+	text-decoration: none;
+	text-align: center;
+	border : 2px white outset ;
+	padding : 10px;
+	border-radius : 10px;
+}
+
+#block_page
+{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items : center;
+	width : 80%;
+	margin : auto;
+	font-family : Arial, serif;
+}
+
+p
+{
+	color: black;
+	font-size : 1em;
+}
+ul li
+{
+	
+	text-align: left;
+}
+a
+{
+	color : black;
+	text-decoration: none;
+}
+nav a
+{
+	color :white;
+}
+nav
+{
+	display: flex;
+	align-self : flex-end;
+	text-transform : uppercase;
+	background-color: rgb(38,133,165);
+	margin : 1em;
+	border : 2px black solid;
+	border-radius : 10px;
+	width : auto;
+}
+nav ul
+{
+	display : flex;
+	flex-direction : row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+nav ul li
+{
+	margin : 1vw 1vw 1vw 0;
+	
+}
+nav ul li:hover
+{
+	font-weight: bold;
+
+}
+
+
+
+#situation_actuelle div, #experience_pro div, #formation div div,#competences div div, #centre_interet article div
+{
+	display : flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style : none;
+	padding : 20px;
+	margin : 1em 0 1em 0;
+	border : 1px black outset;
+	border-radius : 10px;
+	box-shadow: 6px 6px 3px grey;
+}
+body h1
+{
+	text-decoration: underline;
+	font-size : 1.5em;
+
+}
+
+article h1
+{
+	text-decoration: none;
+	font-size : 1.2em;
+}
+article h2, article h3
+{
+	text-decoration: none;
+	font-size : 1em;
+}
+#situation_actuelle div article, #experience_pro article
+{
+	width : 80%;
+	margin-right: 2vw;
+}
+
+
+#experience_pro aside
+{
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	margin-right: 2%;
+}
+.comp_cles
+{
+	display : flex;
+	flex-direction : column;
+	border : 1px black solid;
+	background: linear-gradient(to bottom right, green, white);
+	list-style : none;
+}
+
+#formation div,#competences div, #centre_interet article
+{
+	display: flex;
+	flex-direction : row;
+	justify-content : space-around;
+	flex-wrap : wrap;
+}
+#formation div div, #competences div div
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : flex-end;
+	text-align : center;
+
+	width : 280px;
+	margin : 10px;
+}
+
+#centre_interet
+{
+	width : 100%;
+	
+}
+
+#centre_interet article div
+{
+	
+display : flex;
+	flex-direction : column;
+	justify-content : space-around;
+	align-items : center;
+	text-align : center;
+	
+	width : 200px;
+	height : 200px;
+	border : 2px black solid;
+	border-radius : 10px;
+	margin : 20px;
+
+}
+#karate
+{
+	background: linear-gradient(to bottom right , rgb(20,35,160), rgb(255,255,255));
+	
+	
+}
+
+#iaido
+{
+		background: linear-gradient(to bottom , black, white);
+
+}
+#tir_arc
+{
+		background: linear-gradient(to bottom left, red, white);
+
+}
+#lecture
+{
+		background: linear-gradient(to top right , yellow, white);
+
+}
+#jeux_video
+{
+		background: linear-gradient(to top , green, white);
+
+}
+#enigme
+{
+		background: linear-gradient(to top left , orange, white);
+
+}
+
+#centre_interet div:hover
+{
+	background-image: none;
+	text-decoration: underline;
+}
+
+.contact
+{
+    
+    background: linear-gradient(to bottom , rgb(203,82,83), rgb(122,5,7));
+    border: 2px solid #760001;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin : 50px;
+}
+
+.contact:hover
+{
+	color : white;
+	font-weight: bold;
+}
+footer
+{
+	text-align: center;
+	margin : 50px;
+}
