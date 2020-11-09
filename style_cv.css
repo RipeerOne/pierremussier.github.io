@@ -92,6 +92,8 @@ nav ul
 
 nav ul li
 {
+	width : 150px;
+	text-align : center;
 	margin : 1vw 1vw 1vw 0;
 	
 }
