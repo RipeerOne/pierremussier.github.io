@@ -9,7 +9,18 @@
 }
 
 
-
+body
+{
+	background-image : url("image_cv/fond-op7.jpg");
+    position: relative;
+   
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
 
 header
 {
@@ -19,6 +30,7 @@ header
 	align-items: center;
 	width : auto;
 	background-color: rgb(23,55,94);
+	z-index : 2;
 }
 
 #photo_identite
@@ -47,6 +59,7 @@ header
 	align-items : center;
 	width : 80%;
 	margin : auto;
+	padding :0 0 50px 0;
 	font-family : Arial, serif;
 }
 
@@ -116,6 +129,7 @@ nav ul li:hover
 	border : 1px black outset;
 	border-radius : 10px;
 	box-shadow: 6px 6px 3px grey;
+	background-color : white;
 }
 body h1
 {
@@ -193,25 +207,26 @@ display : flex;
 	width : 200px;
 	height : 200px;
 	border : 2px black solid;
-	border-radius : 10px;
+	border-radius : 50%;
 	margin : 20px;
 
 }
 #karate
 {
-	background: linear-gradient(to bottom right , rgb(20,35,160), rgb(255,255,255));
+
+background: linear-gradient(to bottom right , #FCF6BA, #B38728, #FBF5B7, #BF953F, #FCF6BA );
+
 	
 	
 }
 
 #iaido
 {
-		background: linear-gradient(to bottom , black, white);
-
+		background: linear-gradient(to bottom right , #D7D7D7, #778899, #D7D7D7, #778899, #D7D7D7);
 }
 #tir_arc
 {
-		background: linear-gradient(to bottom left, red, white);
+		background: linear-gradient(to bottom right , #ffdeca, #ca7345,#ffdeca, #ca7345,#ffdeca);
 
 }
 #lecture
@@ -226,7 +241,7 @@ display : flex;
 }
 #enigme
 {
-		background: linear-gradient(to top left , orange, white);
+		background: linear-gradient(to top left , #FFBD59, white);
 
 }
 
@@ -236,9 +251,29 @@ display : flex;
 	text-decoration: underline;
 }
 
+footer
+{
+	display : flex;
+	flex-direction : column;
+	align-items: center;
+	text-align: center;
+	padding : 50px;
+	background-color : rgb(47,47,47);
+}
+
+footer p
+{
+	color : white;
+}
+
+footer p a
+{
+	color : white;
+}
+
 .contact
 {
-    
+    width : 200px;
     background: linear-gradient(to bottom , rgb(203,82,83), rgb(122,5,7));
     border: 2px solid #760001;
     border-radius: 10px;
@@ -247,7 +282,6 @@ display : flex;
     padding: 10px;
     color: black;
     text-decoration: none;
-    margin : 50px;
 }
 
 .contact:hover
@@ -255,8 +289,4 @@ display : flex;
 	color : white;
 	font-weight: bold;
 }
-footer
-{
-	text-align: center;
-	margin : 50px;
-}
+
